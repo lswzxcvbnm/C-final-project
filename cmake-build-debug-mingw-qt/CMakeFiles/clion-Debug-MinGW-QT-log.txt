@@ -1,0 +1,5 @@
+D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/asus/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S E:\Arknights -B E:\Arknights\cmake-build-debug-mingw-qt
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/Arknights/cmake-build-debug-mingw-qt

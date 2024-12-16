@@ -1,0 +1,5 @@
+C:\Users\asus\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/SFML/mingw64/bin/ninja.exe -G Ninja -S E:\Arknights -B E:\Arknights\cmake-build-debug
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (1.0s)
+-- Generating done (0.4s)
+-- Build files have been written to: E:/Arknights/cmake-build-debug

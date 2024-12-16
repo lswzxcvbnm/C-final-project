@@ -1,0 +1,15 @@
+# ninja log v6
+3	131	7560478600249690	Arknights_autogen/timestamp	3901fa9fdc2bb877
+3	131	7560478600249690	E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/mocs_compilation.cpp	3901fa9fdc2bb877
+3	131	7560478600249690	Arknights_autogen/mocs_compilation.cpp	3901fa9fdc2bb877
+3	131	7560478600249690	E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/timestamp	3901fa9fdc2bb877
+134	177	7560478600619857	CMakeFiles/Arknights.dir/Arknights_autogen/mocs_compilation.cpp.obj	d9990ee72438605
+138	2186	7560478600665305	CMakeFiles/Arknights.dir/main.cpp.obj	1cfb17fa39844e1d
+2188	2831	7560478621167864	Arknights.exe	445a66dce97e3c
+7	308	7560483456548366	Arknights_autogen/timestamp	3901fa9fdc2bb877
+7	308	7560483456548366	Arknights_autogen/mocs_compilation.cpp	3901fa9fdc2bb877
+7	308	7560483456548366	E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/timestamp	3901fa9fdc2bb877
+7	308	7560483456548366	E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/mocs_compilation.cpp	3901fa9fdc2bb877
+309	1384	7560483457007438	CMakeFiles/Arknights.dir/Arknights_autogen/mocs_compilation.cpp.obj	d9990ee72438605
+313	1430	7560483457047547	CMakeFiles/Arknights.dir/mainwidow.cpp.obj	8cb24c7817d8018d
+1430	1708	7560483468208092	Arknights.exe	ce33be45a246be56

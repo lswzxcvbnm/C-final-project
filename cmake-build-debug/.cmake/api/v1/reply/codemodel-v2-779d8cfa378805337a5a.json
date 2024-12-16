@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Arknights",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Arknights::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arknights-Debug-ff5bb186dfc5db9e45a5.json",
+					"name" : "Arknights",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Arknights_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arknights_autogen-Debug-15a4993cfcde3d872f3a.json",
+					"name" : "Arknights_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Arknights_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arknights_autogen_timestamp_deps-Debug-f938c84590fd178d85d5.json",
+					"name" : "Arknights_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Arknights/cmake-build-debug",
+		"source" : "E:/Arknights"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
