@@ -216,7 +216,8 @@
 		"D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"D:/Qt/6.6.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"D:/Qt/6.6.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
-		"D:/Qt/6.6.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake"
+		"D:/Qt/6.6.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
+		"E:/Arknights/resource/res.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/Arknights",
 	"CROSS_CONFIG" : false,
@@ -225,9 +226,45 @@
 	"HEADERS" : 
 	[
 		[
-			"E:/Arknights/mainwidow.h",
+			"E:/Arknights/include/Block.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwidow.cpp",
+			"6YEA5652QU/moc_Block.cpp",
+			null
+		],
+		[
+			"E:/Arknights/include/Enemy.h",
+			"MU",
+			"6YEA5652QU/moc_Enemy.cpp",
+			null
+		],
+		[
+			"E:/Arknights/include/Figure.h",
+			"MU",
+			"6YEA5652QU/moc_Figure.cpp",
+			null
+		],
+		[
+			"E:/Arknights/include/GameMap.h",
+			"MU",
+			"6YEA5652QU/moc_GameMap.cpp",
+			null
+		],
+		[
+			"E:/Arknights/include/GameState.h",
+			"MU",
+			"6YEA5652QU/moc_GameState.cpp",
+			null
+		],
+		[
+			"E:/Arknights/include/Operator.h",
+			"MU",
+			"6YEA5652QU/moc_Operator.cpp",
+			null
+		],
+		[
+			"E:/Arknights/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -301,7 +338,13 @@
 	"SOURCES" : 
 	[
 		[ "E:/Arknights/main.cpp", "MU", null ],
-		[ "E:/Arknights/mainwidow.cpp", "MU", null ]
+		[ "E:/Arknights/mainwindow.cpp", "MU", null ],
+		[ "E:/Arknights/src/Block.cpp", "MU", null ],
+		[ "E:/Arknights/src/Enemy.cpp", "MU", null ],
+		[ "E:/Arknights/src/Figure.cpp", "MU", null ],
+		[ "E:/Arknights/src/GameMap.cpp", "MU", null ],
+		[ "E:/Arknights/src/GameState.cpp", "MU", null ],
+		[ "E:/Arknights/src/Operator.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

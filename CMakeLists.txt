@@ -15,9 +15,25 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(Arknights main.cpp
-        mainwidow.cpp
-        mainwidow.h
-        mainwidow.ui)
+
+        src/Block.cpp
+        include/Block.h
+        src/Operator.cpp
+        include/Operator.h
+        src/Enemy.cpp
+        include/Enemy.h
+        src/GameState.cpp
+        include/GameState.h
+        src/GameMap.cpp
+        include/GameMap.h
+        src/Figure.cpp
+        include/Figure.h
+        resource/res.qrc
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+
+)
 target_link_libraries(Arknights
         Qt::Core
         Qt::Gui

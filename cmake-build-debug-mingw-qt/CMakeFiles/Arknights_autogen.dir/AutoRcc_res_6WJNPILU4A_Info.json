@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Arknights/cmake-build-debug-mingw-qt",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Arknights/cmake-build-debug-mingw-qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Arknights",
+	"CMAKE_SOURCE_DIR" : "E:/Arknights",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/Arknights/resource/Start.jpg",
+		"E:/Arknights/resource/Neng-default.webm",
+		"E:/Arknights/resource/Mount.png",
+		"E:/Arknights/resource/Neng.png",
+		"E:/Arknights/resource/back_normal.png",
+		"E:/Arknights/resource/Mount-attack.webm",
+		"E:/Arknights/resource/E-Bug.png",
+		"E:/Arknights/resource/Mount-default.webm",
+		"E:/Arknights/resource/Scene.png",
+		"E:/Arknights/resource/start_hover.png",
+		"E:/Arknights/resource/Amy.png",
+		"E:/Arknights/resource/Neng-attack.webm"
+	],
+	"LOCK_FILE" : "E:/Arknights/cmake-build-debug-mingw-qt/CMakeFiles/Arknights_autogen.dir/AutoRcc_res_6WJNPILU4A_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "6WJNPILU4A",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/6.6.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/Arknights/cmake-build-debug-mingw-qt/CMakeFiles/Arknights_autogen.dir/AutoRcc_res_6WJNPILU4A_Used.txt",
+	"SOURCE" : "E:/Arknights/resource/res.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -522,8 +522,21 @@ Arknights_autogen/timestamp: \
 	E:/Arknights/cmake-build-debug-mingw-qt/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	E:/Arknights/cmake-build-debug-mingw-qt/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	E:/Arknights/cmake-build-debug-mingw-qt/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	E:/Arknights/include/Block.h \
+	E:/Arknights/include/Enemy.h \
+	E:/Arknights/include/Figure.h \
+	E:/Arknights/include/GameMap.h \
+	E:/Arknights/include/GameState.h \
+	E:/Arknights/include/Operator.h \
 	E:/Arknights/main.cpp \
-	E:/Arknights/mainwidow.cpp \
-	E:/Arknights/mainwidow.h \
-	E:/Arknights/mainwidow.ui \
+	E:/Arknights/mainwindow.cpp \
+	E:/Arknights/mainwindow.h \
+	E:/Arknights/resource/res.qrc \
+	E:/Arknights/src/Block.cpp \
+	E:/Arknights/src/Enemy.cpp \
+	E:/Arknights/src/Figure.cpp \
+	E:/Arknights/src/GameMap.cpp \
+	E:/Arknights/src/GameState.cpp \
+	E:/Arknights/src/Operator.cpp \
+	E:/Arknights/mainwindow.ui \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Amy.png</file>
+        <file>back_normal.png</file>
+        <file>E-Bug.png</file>
+        <file>Mount.png</file>
+        <file>Mount-attack.webm</file>
+        <file>Mount-default.webm</file>
+        <file>Neng.png</file>
+        <file>Neng-attack.webm</file>
+        <file>Neng-default.webm</file>
+        <file>Scene.png</file>
+        <file>Start.jpg</file>
+        <file>start_hover.png</file>
+    </qresource>
+</RCC>
