@@ -15,7 +15,6 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(Arknights main.cpp
-
         src/Block.cpp
         include/Block.h
         src/Operator.cpp
@@ -28,10 +27,14 @@ add_executable(Arknights main.cpp
         include/GameMap.h
         src/Figure.cpp
         include/Figure.h
+        include/MyPushButton.h
+        src/MyPushButton.cpp
         resource/res.qrc
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        src/mainscene.cpp
+        include/mainscene.h
+        mainscene.ui
+        src/ChooseScene.cpp
+        include/ChooseScene.h
 
 )
 target_link_libraries(Arknights

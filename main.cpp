@@ -1,10 +1,11 @@
 #include <QApplication>
-#include <QPushButton>
+#include "include/mainscene.h"
+
 
 int main(int argc, char *argv[]) {
+    QApplication::addLibraryPath(R"(D:\Qt\6.6.3\mingw_64\plugins)");
     QApplication a(argc, argv);
-    QPushButton button("Hello world!", nullptr);
-    button.resize(200, 100);
-    button.show();
-    return QApplication::exec();
+    MainScene w;
+    w.show();
+    return a.exec();
 }

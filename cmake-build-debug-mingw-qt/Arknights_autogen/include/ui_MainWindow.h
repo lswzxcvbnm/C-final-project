@@ -10,8 +10,10 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
@@ -21,8 +23,10 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actionquit;
     QWidget *centralwidget;
     QMenuBar *menubar;
+    QMenu *menumenu;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -30,16 +34,23 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(400, 300);
+        actionquit = new QAction(MainWindow);
+        actionquit->setObjectName("actionquit");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 400, 17));
+        menubar->setGeometry(QRect(0, 0, 400, 22));
+        menumenu = new QMenu(menubar);
+        menumenu->setObjectName("menumenu");
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
+
+        menubar->addAction(menumenu->menuAction());
+        menumenu->addAction(actionquit);
 
         retranslateUi(MainWindow);
 
@@ -49,6 +60,8 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        actionquit->setText(QCoreApplication::translate("MainWindow", "quit", nullptr));
+        menumenu->setTitle(QCoreApplication::translate("MainWindow", "menu", nullptr));
     } // retranslateUi
 
 };

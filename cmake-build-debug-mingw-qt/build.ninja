@@ -113,13 +113,29 @@ build CMakeFiles/Arknights.dir/src/Figure.cpp.obj: CXX_COMPILER__Arknights_unsca
   OBJECT_DIR = CMakeFiles\Arknights.dir
   OBJECT_FILE_DIR = CMakeFiles\Arknights.dir\src
 
-build CMakeFiles/Arknights.dir/mainwindow.cpp.obj: CXX_COMPILER__Arknights_unscanned_Debug E$:/Arknights/mainwindow.cpp || cmake_object_order_depends_target_Arknights
+build CMakeFiles/Arknights.dir/src/MyPushButton.cpp.obj: CXX_COMPILER__Arknights_unscanned_Debug E$:/Arknights/src/MyPushButton.cpp || cmake_object_order_depends_target_Arknights
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\Arknights.dir\mainwindow.cpp.obj.d
+  DEP_FILE = CMakeFiles\Arknights.dir\src\MyPushButton.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/include -isystem D:/Qt/6.6.3/mingw_64/include/QtCore -isystem D:/Qt/6.6.3/mingw_64/include -isystem D:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.6.3/mingw_64/include/QtGui -isystem D:/Qt/6.6.3/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\Arknights.dir
-  OBJECT_FILE_DIR = CMakeFiles\Arknights.dir
+  OBJECT_FILE_DIR = CMakeFiles\Arknights.dir\src
+
+build CMakeFiles/Arknights.dir/src/mainscene.cpp.obj: CXX_COMPILER__Arknights_unscanned_Debug E$:/Arknights/src/mainscene.cpp || cmake_object_order_depends_target_Arknights
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Arknights.dir\src\mainscene.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/include -isystem D:/Qt/6.6.3/mingw_64/include/QtCore -isystem D:/Qt/6.6.3/mingw_64/include -isystem D:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.6.3/mingw_64/include/QtGui -isystem D:/Qt/6.6.3/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\Arknights.dir
+  OBJECT_FILE_DIR = CMakeFiles\Arknights.dir\src
+
+build CMakeFiles/Arknights.dir/src/ChooseScene.cpp.obj: CXX_COMPILER__Arknights_unscanned_Debug E$:/Arknights/src/ChooseScene.cpp || cmake_object_order_depends_target_Arknights
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Arknights.dir\src\ChooseScene.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem E:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/include -isystem D:/Qt/6.6.3/mingw_64/include/QtCore -isystem D:/Qt/6.6.3/mingw_64/include -isystem D:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.6.3/mingw_64/include/QtGui -isystem D:/Qt/6.6.3/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\Arknights.dir
+  OBJECT_FILE_DIR = CMakeFiles\Arknights.dir\src
 
 build CMakeFiles/Arknights.dir/Arknights_autogen/6WJNPILU4A/qrc_res.cpp.obj: CXX_COMPILER__Arknights_unscanned_Debug E$:/Arknights/cmake-build-debug-mingw-qt/Arknights_autogen/6WJNPILU4A/qrc_res.cpp || cmake_object_order_depends_target_Arknights
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -137,7 +153,7 @@ build CMakeFiles/Arknights.dir/Arknights_autogen/6WJNPILU4A/qrc_res.cpp.obj: CXX
 #############################################
 # Link the executable Arknights.exe
 
-build Arknights.exe: CXX_EXECUTABLE_LINKER__Arknights_Debug CMakeFiles/Arknights.dir/Arknights_autogen/mocs_compilation.cpp.obj CMakeFiles/Arknights.dir/main.cpp.obj CMakeFiles/Arknights.dir/src/Block.cpp.obj CMakeFiles/Arknights.dir/src/Operator.cpp.obj CMakeFiles/Arknights.dir/src/Enemy.cpp.obj CMakeFiles/Arknights.dir/src/GameState.cpp.obj CMakeFiles/Arknights.dir/src/GameMap.cpp.obj CMakeFiles/Arknights.dir/src/Figure.cpp.obj CMakeFiles/Arknights.dir/mainwindow.cpp.obj CMakeFiles/Arknights.dir/Arknights_autogen/6WJNPILU4A/qrc_res.cpp.obj | D$:/Qt/6.6.3/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.6.3/mingw_64/lib/libQt6Gui.a D$:/Qt/6.6.3/mingw_64/lib/libQt6Core.a || Arknights_autogen Arknights_autogen_timestamp_deps
+build Arknights.exe: CXX_EXECUTABLE_LINKER__Arknights_Debug CMakeFiles/Arknights.dir/Arknights_autogen/mocs_compilation.cpp.obj CMakeFiles/Arknights.dir/main.cpp.obj CMakeFiles/Arknights.dir/src/Block.cpp.obj CMakeFiles/Arknights.dir/src/Operator.cpp.obj CMakeFiles/Arknights.dir/src/Enemy.cpp.obj CMakeFiles/Arknights.dir/src/GameState.cpp.obj CMakeFiles/Arknights.dir/src/GameMap.cpp.obj CMakeFiles/Arknights.dir/src/Figure.cpp.obj CMakeFiles/Arknights.dir/src/MyPushButton.cpp.obj CMakeFiles/Arknights.dir/src/mainscene.cpp.obj CMakeFiles/Arknights.dir/src/ChooseScene.cpp.obj CMakeFiles/Arknights.dir/Arknights_autogen/6WJNPILU4A/qrc_res.cpp.obj | D$:/Qt/6.6.3/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.6.3/mingw_64/lib/libQt6Gui.a D$:/Qt/6.6.3/mingw_64/lib/libQt6Core.a || Arknights_autogen Arknights_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = D:/Qt/6.6.3/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.6.3/mingw_64/lib/libQt6Gui.a  D:/Qt/6.6.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Arknights.dir
@@ -181,7 +197,7 @@ build Arknights_autogen_timestamp_deps: phony
 #############################################
 # Utility command for Arknights_autogen
 
-build Arknights_autogen: phony CMakeFiles/Arknights_autogen Arknights_autogen/include/ui_mainwindow.h Arknights_autogen/timestamp Arknights_autogen/mocs_compilation.cpp Arknights_autogen_timestamp_deps
+build Arknights_autogen: phony CMakeFiles/Arknights_autogen Arknights_autogen/include/ui_mainscene.h Arknights_autogen/timestamp Arknights_autogen/mocs_compilation.cpp Arknights_autogen_timestamp_deps
 
 
 #############################################
@@ -207,7 +223,7 @@ build Arknights_autogen/6WJNPILU4A/qrc_res.cpp | ${cmake_ninja_workdir}Arknights
 #############################################
 # Phony custom command for CMakeFiles\Arknights_autogen
 
-build CMakeFiles/Arknights_autogen Arknights_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/Arknights_autogen ${cmake_ninja_workdir}Arknights_autogen/include/ui_mainwindow.h: phony Arknights_autogen/timestamp || Arknights_autogen_timestamp_deps
+build CMakeFiles/Arknights_autogen Arknights_autogen/include/ui_mainscene.h | ${cmake_ninja_workdir}CMakeFiles/Arknights_autogen ${cmake_ninja_workdir}Arknights_autogen/include/ui_mainscene.h: phony Arknights_autogen/timestamp || Arknights_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

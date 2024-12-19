@@ -5,7 +5,10 @@
 
 
 class Block{
-
+private:
+    int x, y;
+public:
+    Block(int x, int y);
 };
 
 

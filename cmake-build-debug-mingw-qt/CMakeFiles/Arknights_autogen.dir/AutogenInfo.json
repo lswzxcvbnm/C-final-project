@@ -232,6 +232,12 @@
 			null
 		],
 		[
+			"E:/Arknights/include/ChooseScene.h",
+			"MU",
+			"6YEA5652QU/moc_ChooseScene.cpp",
+			null
+		],
+		[
 			"E:/Arknights/include/Enemy.h",
 			"MU",
 			"6YEA5652QU/moc_Enemy.cpp",
@@ -256,15 +262,21 @@
 			null
 		],
 		[
+			"E:/Arknights/include/MyPushButton.h",
+			"MU",
+			"6YEA5652QU/moc_MyPushButton.cpp",
+			null
+		],
+		[
 			"E:/Arknights/include/Operator.h",
 			"MU",
 			"6YEA5652QU/moc_Operator.cpp",
 			null
 		],
 		[
-			"E:/Arknights/mainwindow.h",
+			"E:/Arknights/include/mainscene.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"6YEA5652QU/moc_mainscene.cpp",
 			null
 		]
 	],
@@ -338,13 +350,15 @@
 	"SOURCES" : 
 	[
 		[ "E:/Arknights/main.cpp", "MU", null ],
-		[ "E:/Arknights/mainwindow.cpp", "MU", null ],
 		[ "E:/Arknights/src/Block.cpp", "MU", null ],
+		[ "E:/Arknights/src/ChooseScene.cpp", "MU", null ],
 		[ "E:/Arknights/src/Enemy.cpp", "MU", null ],
 		[ "E:/Arknights/src/Figure.cpp", "MU", null ],
 		[ "E:/Arknights/src/GameMap.cpp", "MU", null ],
 		[ "E:/Arknights/src/GameState.cpp", "MU", null ],
-		[ "E:/Arknights/src/Operator.cpp", "MU", null ]
+		[ "E:/Arknights/src/MyPushButton.cpp", "MU", null ],
+		[ "E:/Arknights/src/Operator.cpp", "MU", null ],
+		[ "E:/Arknights/src/mainscene.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
